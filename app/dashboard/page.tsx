@@ -254,7 +254,7 @@ const DashboardPage: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-cyan-50 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <LoaderOne />
         {/* <p className="text-gray-600">Loading tournament dashboard...</p> */}
       </div>
